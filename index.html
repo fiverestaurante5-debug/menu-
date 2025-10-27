@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu de Ementas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 80px 20px;
+    }
+    h1 {
+      color: #222;
+    }
+    .menu {
+      margin-top: 40px;
+    }
+    .menu button {
+      display: inline-block;
+      margin: 12px;
+      padding: 14px 26px;
+      background-color: #007BFF;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .menu button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Menu de Ementas</h1>
+  <div class="menu">
+    <button onclick="window.open('ementa_pt.pdf', '_blank')">Ementa (PT)</button>
+    <button onclick="window.open('ementa-eng.pdf', '_blank')">Ementa (ENG)</button>
+    <button onclick="window.open('novidades_pt.pdf', '_blank')">Novidades (PT)</button>
+    <button onclick="window.open('novidades-eng.pdf', '_blank')">Novidades (ENG)</button>
+  </div>
+</body>
+</html>
